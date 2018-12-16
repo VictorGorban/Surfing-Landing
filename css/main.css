@@ -1,0 +1,235 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+h1 {
+  color: black;
+}
+.wrapper {
+  width: 1440px;
+  margin: auto;
+}
+.nav-wrapper {
+  width: 1440px;
+  margin: auto;
+  padding-top: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.nav-item {
+  color: #aaaaaa;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+.nav-item-active,
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+  color: #111111;
+  font-weight: 700;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.nav {
+  width: 424px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.header-wrapper {
+  margin-top: 218px;
+  width: 1440px;
+  padding: 0;
+  text-align: center;
+}
+.header-wrapper .header {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.57px;
+}
+.header-wrapper p.header-description {
+  width: 584px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  letter-spacing: 0.06px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #999999;
+}
+footer.footer {
+  width: 1800px;
+  margin: auto;
+  border-top: 1px solid #f2ede7;
+}
+footer.footer .footer-container {
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+footer.footer .footer-container .copyright-title {
+  color: #000000;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 19.09px;
+}
+footer.footer .footer-container .copyright-text {
+  color: #9f9f9f;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 15px;
+  margin-bottom: 38px;
+  margin-left: 2px;
+}
+footer.footer .footer-container .designedby {
+  margin-right: 26px;
+  color: #9f9f9f;
+}
+footer.footer .footer-container .designedby strong {
+  color: black;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: #cff3c1;
+}
+.blogs-wrapper .blogs-title {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0.41px;
+  text-align: center;
+}
+.instructors-wrapper {
+  width: 1055px;
+  margin: auto;
+}
+.instructors-wrapper .instructors-title {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0.41px;
+  text-align: center;
+}
+.instructors-wrapper .instructors {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.reviews-and-videos-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.reviews-and-videos-wrapper .reviews {
+  width: 260px;
+}
+.reviews-and-videos-wrapper .reviews .reviews-title {
+  color: #000000;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.29px;
+  margin-top: 27px;
+}
+.reviews-and-videos-wrapper .reviews .reviews-item {
+  margin-top: 44px;
+  border-bottom: 1px solid #e7e7e7;
+  text-align: left;
+  position: relative;
+  z-index: 0;
+}
+.reviews-and-videos-wrapper .reviews .reviews-item .reviews-item__text {
+  color: #999999;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.94;
+  letter-spacing: 0.6px;
+}
+.reviews-and-videos-wrapper .reviews .reviews-item .reviews-item__author {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  margin-left: 1px;
+}
+.reviews-and-videos-wrapper .reviews .reviews-item .reviews-item__author::before {
+  content: "- \00A0";
+}
+.reviews-and-videos-wrapper .reviews .reviews-item::before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 29px;
+  position: absolute;
+  top: 0;
+  left: -18px;
+  z-index: -1;
+  background-image: url("../img/icons/“.svg");
+}
+.reviews-and-videos-wrapper .play-icon {
+  width: 56px;
+  height: 56px;
+  background-image: url("../img/icons/PlayVideo.svg");
+  border-radius: 50px;
+}
+.reviews-and-videos-wrapper .uservideos .uservideos-title {
+  margin-top: 26px;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 2.8;
+  letter-spacing: 0.29px;
+}
+.reviews-and-videos-wrapper .uservideos .uservideos-item {
+  width: 280px;
+  height: 155px;
+  position: relative;
+  overflow: hidden;
+}
+.reviews-and-videos-wrapper .uservideos .uservideos-item + .uservideos-item {
+  margin-top: 36px;
+}
+.reviews-and-videos-wrapper .uservideos .uservideos-item .play-icon {
+  position: absolute;
+  left: -10px;
+  bottom: -15px;
+}
+.reviews-and-videos-wrapper .video-center {
+  width: 617px;
+  height: 436px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.reviews-and-videos-wrapper .video-center .play-icon {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+}
